@@ -1,0 +1,272 @@
+<!doctype html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no"> 
+  <link rel="stylesheet" type="text/css" href="./css/jazz-timeline.css"></link>
+  <title>柒夜 | 给你不一样的体验</title>
+  </script>
+  <style>
+			::-webkit-scrollbar {display:none}
+
+			html {
+				color: #444444;
+				background-color: #F9F9F9;
+			}
+
+			body {
+				margin: 0;
+				font: 16px 'Roboto',sans-serif;
+				-webkit-text-size-adjust: none;
+				text-size-adjust: none;
+			}
+
+			a{
+				color: #666666;
+				text-decoration: none;
+			}
+
+			#logo{
+				width: 120px;
+				margin: auto;
+				margin-top: 60px;
+				display: block;
+			}
+
+			#app-title{
+				display: block;
+				margin: auto;
+				text-align: center;
+				font-size: 1.8em;
+        margin-top: 10px;
+        margin-bottom: 6px;
+			}
+
+			#app-desc{
+				text-align: center;
+				font-weight: 100;
+        margin: 0;
+			}
+
+			#app-desc a{
+				font-weight: 400;
+			}
+
+			#play-store{
+				display: block;
+				margin: 20px auto;
+				text-align: center;
+			}
+
+			#play-store img{
+				width: 160px;
+			}
+
+			#contacts{
+				font-weight: 400;
+				font-size: 0.9em;
+				list-style: none;
+				text-transform: uppercase;
+				padding: 0;
+				text-align: center;
+				margin: 10px auto;
+				overflow: auto;
+			}
+
+			#contacts li{
+				margin: 10px 4px;
+				display: inline-block;
+			}
+
+			div.screens {
+				display: block;
+				height: 430px;
+				text-align: center;
+				white-space: nowrap;
+				overflow: hidden;
+				background: #333;
+				
+			}
+			div.screens p {
+				margin: 10px 0;
+				height: 500px;
+				display: block;
+				max-width: 90%;
+				padding: 0 5%;
+				overflow: scroll;
+				overflow-y: hidden;
+				overflow-x: auto;
+				-webkit-overflow-scrolling: touch;
+			}
+
+			div.screens img {
+				height: 400px;
+				position: relative;
+				margin: 5px 5px;
+				border-radius: 1px;
+				box-shadow: rgba(0,0,0,0.75) 0px 0px 3px;
+			}
+
+			#content{
+				width: 100%
+				margin: 0;
+				padding: 0;
+			}
+
+			.btn-info.inverse {
+				color: white;
+			    font-size: 14px;
+			    letter-spacing: 0.78px;
+			    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 1px 2px rgba(0, 0, 0, 0.05);
+			    background: #2196F3;
+			    border: 1px solid #2196F3;
+			    padding: 15px 22px 15px 50px;
+			    position: relative;
+			    text-shadow: 0 1px 0 #2196F3;
+			}
+
+			.download {
+			    margin-top: 10px;
+			    margin-bottom: 15px;
+			}
+
+			.btn.android {
+				font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+			    position: relative;
+			    display: inline-block;
+			    vertical-align: middle;
+			    overflow: hidden;
+			    cursor: pointer;
+			    transition: all 0.15s ease-in-out;
+				   background-image: url(./img/android.svg);
+    			background-repeat: no-repeat;
+    			background-position: 25px 14px;
+    			border-radius: 50px;
+			}
+
+			.btn.update {
+				font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+			    position: relative;
+			    display: inline-block;
+			    vertical-align: middle;
+			    overflow: hidden;
+			    cursor: pointer;
+			    transition: all 0.15s ease-in-out;
+				   background-image: url(./img/update.svg);
+    			background-repeat: no-repeat;
+    			background-position: 25px 14px;
+    			border-radius: 50px;
+			}
+
+			#footer{
+				text-align: center;
+				font-size: 0.8em;
+				font-weight: 100;
+			}
+
+			#footer a{
+				font-weight: 400;
+			}
+			.en-markup-crop-options {
+			    top: 18px !important;
+			    left: 50% !important;
+			    margin-left: -100px !important;
+			    width: 200px !important;
+			    border: 2px rgba(255,255,255,.38) solid !important;
+			    border-radius: 4px !important;
+			}
+
+			.en-markup-crop-options div div:first-of-type {
+			    margin-left: 0px !important;
+			}
+			
+			.message{
+			  text-align:center;
+			}
+			/*.version{
+			  display: flex;
+			  margin:0 0 0 40%;
+			}*/
+		</style> 
+ </head> 
+ <body> 
+  <img id="logo" src="./img/ic_launcher_round.png"> 
+  <p id="app-title">柒夜</p> 
+  <p id="app-desc">更专注于开发者</p>
+  <div class="message"><br>
+    <div align="center"><em><b>版本号：1.02&nbsp;&nbsp;&nbsp;大小：5.98M</b></em></div>
+    <div><p>MD5：ad8444d59d48dbdc38e052a2e6d14a21</p></div>
+    <div><p>SHA1：ae1037e99b8e7109f91b31a39adbc977a77ab779</p></div>
+  </div>
+  <div id="play-store"> 
+   <a class="btn btn-info btn-radius inverse download android" target="_blank" href="./apk/MToooBox_1.02_formal.apk">&nbsp;下载Apk&nbsp;</a> 
+   <a class="btn btn-info btn-radius inverse download update" href="#1.02">更新日志</a> 
+  </div> 
+  <div class="screens">
+   <p> <img src="./img/1.png"> <img src="./img/2.png"> <img src="./img/3.png"> <img src="./img/4.png"> <img src="./img/5.png"> <img src="./img/6.png"> <img src="./img/7.png"></p> 
+  </div> 
+  
+  <div id="content">
+  
+         <div id="1.01" class="jazz-timeline-wrapper">
+            <div class="jazz-timeline multiline-timeline thin-timeline">
+            
+                <div class="timeline-post red-post red-trail">
+                    <div class="timeline-meta">
+                    	<div class="meta-details">2018-5-14</div>
+                    </div> 
+                    <div class="timeline-icon icon-dot-full">
+                        <div class="timeline-bar"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <h2 class="content-title">V1.01</h2>
+                        <div class="content-details">
+                            <p>
+                            1)修复开发者浏览器输出Log
+                            <br/>
+                            2)修复注册闪退问题
+                            <br/>
+                            3)修复头像无法显示的bug
+                            <br/>
+                            4)修复部分bug
+                            </p>
+                        </div>
+                    </div><!-- timeline content -->
+                </div><!-- .timeline-post -->
+                
+                <div id="1.02" class="timeline-post orange-post orange-trail">
+                    <div class="timeline-meta">
+                    	<div class="meta-details">2018-11-28</div>
+                    </div> 
+                    <div class="timeline-icon icon-dot-full">
+                        <div class="timeline-bar"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <h2 class="content-title">V1.02</h2>
+                        <div class="content-details">
+                            <p>
+                            1)更新创建语言翻译功能
+                            <br/>
+                            2)更新创建RC4加密
+                            <br/>
+                            3)更新创建MD5加密
+                            <br/>
+                            4)更新登陆页布局
+                            <br/>
+                            5)更新新华字典
+                            <br/>
+                            6)修复噪音测试退出再进入闪退的bug
+                            <br/>
+                            7)修复启动卡顿的问题
+                            </p>
+                        </div>
+                    </div><!-- timeline content -->
+                </div><!-- .timeline-post -->
+                
+            </div><!-- .timeline -->
+        </div><!-- .jazz-timeline-wrapper -->    
+  
+  </div>
+  <p id="footer">Copyright © 2017-2019 JianChen.all Rights Reserved</p>
+ </body>
+</html>
